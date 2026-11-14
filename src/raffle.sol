@@ -4,7 +4,7 @@ pragma solidity ~0.8.38;
 /**
  * Imports
  */
-import { VRFConsumerBaseV2Plus } from "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2Plus.sol";
+// import { VRFConsumerBaseV2Plus } from "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2Plus.sol";
 
 /**
  * Errors
