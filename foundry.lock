@@ -1,4 +1,10 @@
 {
+  "lib/chainlink-evm": {
+    "tag": {
+      "name": "cre-v0.5.1",
+      "rev": "a525804d900be332da791188f4bc4e4ec82b397e"
+    }
+  },
   "lib/forge-std": {
     "tag": {
       "name": "v1.17.0",

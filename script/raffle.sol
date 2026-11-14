@@ -2,8 +2,13 @@
 pragma solidity ~0.8.38;
 
 /**
-  * Errors
-  */
+ * Imports
+ */
+import { VRFConsumerBaseV2Plus } from "@chainlink/contracts/src/v0.8/vrf/VRFConsumerBaseV2Plus.sol";
+
+/**
+ * Errors
+ */
 error Raffle_SendMoreToEnterRaffle();
 
 /**
@@ -64,6 +69,8 @@ contract Raffle {
     if ((block.timestamp - s_lastTimestamp) > i_interval) {
       revert ();
     }
+
+    // get a random number
   }
 
   /**
